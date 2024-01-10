@@ -4,7 +4,7 @@ from cleaner import clean_corpus
 from flask import Flask, jsonify, request
 app = Flask(__name__)
 
-CORPUS_FILE = ".\source_code_final\\chat.txt"
+CORPUS_FILE = "chat.txt"
 
 chatbot = ChatBot("Chatpot")
 
@@ -15,7 +15,9 @@ trainer.train(cleaned_corpus)
 
 @app.route('/message', methods=['POST'])
 def post_message():
-    res = chatbot.get_response("Hi Martin, Philipp here!")
+    message = request.form.get('message')
+    print("message", message)
+    res = chatbot.get_response(message)
     return str(res)
 
 if __name__ == '__main__':
