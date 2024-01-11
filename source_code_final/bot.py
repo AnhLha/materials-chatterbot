@@ -21,10 +21,19 @@ trainer.train(cleaned_corpus)
 @app.route('/message', methods=['POST'])
 @cross_origin("*")
 def post_message():
-    message = request.form.get('message')
+    content = request.json
+    print("content", content)
+    message = content["message"]
     print("message", message)
     res = chatbot.get_response(message)
-    return str(res)
+    # return str(res)
+    return jsonify({
+        "status": 200,
+        "data":{
+            "message": str(res),
+            "role":"admin"
+            }
+        })
 
 if __name__ == '__main__':
     print("hello main")
