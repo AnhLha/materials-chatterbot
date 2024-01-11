@@ -8,7 +8,7 @@ app = Flask(__name__)
 # CORS(app, resources={r"/*": {"origins": "*"}})
 cors = CORS(app)
 
-CORPUS_FILE = ".\source_code_final\\chat.txt"
+CORPUS_FILE = ".\source_code_final\\train.txt"
 
 chatbot = ChatBot("Chatpot")
 
@@ -22,9 +22,9 @@ trainer.train(cleaned_corpus)
 @cross_origin("*")
 def post_message():
     content = request.json
-    print("content", content)
+    # print("content", content)
     message = content["message"]
-    print("message", message)
+    # print("message", message)
     res = chatbot.get_response(message)
     # return str(res)
     return jsonify({

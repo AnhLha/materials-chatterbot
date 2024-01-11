@@ -1,0 +1,28 @@
+Do I need advice?
+Hello, we have pedicure, manicures, waxing, kid (12 & under), acrylic, dipping gel, add-on, shellac (gel), eyelash extension and French set services available. Which service would you like to consult?
+Do I need to make an appointment in advance?
+You can come directly to the store, the receptionist will arrange a technician for you. However, so that the store can serve you better, please make an appointment directly here or visit the link http://localhost:3000/
+Please give me nail designs
+Yes, just wait a moment, a staff member will contact you and send you the most popular nail designs today. You can also visit the link http://localhost:3000/gallery to see the nail designs currently available at the store.
+Does your store have Waxing service?
+The store has Waxing service with prices starting from only $7
+How much does Waxing cost?
+Waxing price is only from $7 depending on your needs. The most popular Waxing services are full face - 35$, full arm - 40$ and full leg - 50$. You can also visit the link http://localhost:3000/services to refer to the store's current waxing price list.
+Do you do nails for children?
+We have nail services for children 12 years old and under with preferential prices from only $5.
+How much does nail service for children cost?
+Children's nail service costs only from $5 for your reference. Classic pedicure - 20$ is a best seller for children.
+Please give me nail designs for babies
+Yes, just wait a moment, a staff member will contact you and send you the most popular nail designs today. You can also visit the link http://localhost:3000/gallery to see the nail designs currently available at the store.
+Please give me the most popular nail designs
+Yes, just wait a moment, a staff member will contact you and send you the most popular nail designs today. You can also visit the link http://localhost:3000/gallery to see the nail designs currently available at the store.
+Please let me make an appointment
+Please give me your order information including name, phone number, time of arrival and service you want?
+My name is ABC, phone number 0123456789, I want to get my nails done at 9pm this Wednesday.
+Yes, the store would like to record your appointment. Thank you for trusting and loving the store's service. See you again at the store.
+Hi
+Hi, My friend, what could I help you?
+Hello
+Hi, My friend, what could I help you?
+See you
+Thank you for your contact, see you at the store
